@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Kolay E-Ticaret</title>
+  <script src="https://cdn.snipcart.com/themes/v3.3.3/default/snipcart.js"></script>
+  <link href="https://cdn.snipcart.com/themes/v3.3.3/default/snipcart.css" rel="stylesheet" />
+</head>
+<body>
+
+  <h1>Ürünlerimiz</h1>
+
+  <div>
+    <h2>Ürün 1</h2>
+    <p>Fiyat: 50₺</p>
+    <button class="snipcart-add-item"
+      data-item-id="urun1"
+      data-item-price="50"
+      data-item-url="https://kullaniciadi.github.io/my-shop"
+      data-item-description="Harika ürün 1"
+      data-item-name="Ürün 1">
+      Sepete Ekle
+    </button>
+  </div>
+
+  <div>
+    <h2>Ürün 2</h2>
+    <p>Fiyat: 80₺</p>
+    <button class="snipcart-add-item"
+      data-item-id="urun2"
+      data-item-price="80"
+      data-item-url="https://kullaniciadi.github.io/my-shop"
+      data-item-description="Harika ürün 2"
+      data-item-name="Ürün 2">
+      Sepete Ekle
+    </button>
+  </div>
+
+  <!-- Snipcart Sepet -->
+  <div hidden id="snipcart" data-api-key="SNIPCART_API_KEY"></div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
   <title>Ücretsiz E-Ticaret</title>
   <script src="https://js.stripe.com/v3/"></script>
   <style>
