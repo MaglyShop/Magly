@@ -1,4 +1,19 @@
-<!DOCTYPE html>
+<!-- HEAD kısmı -->
+<script src="https://cdn.snipcart.com/themes/v3.3.3/default/snipcart.js"></script>
+<link href="https://cdn.snipcart.com/themes/v3.3.3/default/snipcart.css" rel="stylesheet" />
+
+<!-- BODY kısmı -->
+<button class="snipcart-add-item"
+  data-item-id="urun1"
+  data-item-price="50"
+  data-item-url="https://maglyshop.github.io/my-shop"
+  data-item-description="Harika ürün 1"
+  data-item-name="Ürün 1">
+  Sepete Ekle
+</button>
+
+<!-- Snipcart Sepet -->
+<div hidden id="snipcart" data-api-key="GERÇEK_API_ANAHTARINIZ"></div><!DOCTYPE html>
 <html>
 <head>
   <title>Kolay E-Ticaret</title>
